@@ -1,0 +1,49 @@
+PODS:
+  - AFNetworking (2.6.1):
+    - AFNetworking/NSURLConnection (= 2.6.1)
+    - AFNetworking/NSURLSession (= 2.6.1)
+    - AFNetworking/Reachability (= 2.6.1)
+    - AFNetworking/Security (= 2.6.1)
+    - AFNetworking/Serialization (= 2.6.1)
+    - AFNetworking/UIKit (= 2.6.1)
+  - AFNetworking/NSURLConnection (2.6.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.1)
+  - AFNetworking/Security (2.6.1)
+  - AFNetworking/Serialization (2.6.1)
+  - AFNetworking/UIKit (2.6.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - FormatterKit/URLRequestFormatter (1.8.0)
+  - MJApiClient (0.3.2):
+    - AFNetworking
+    - FormatterKit/URLRequestFormatter
+  - Motis (1.4.0)
+
+DEPENDENCIES:
+  - MJApiClient (from `https://github.com/mobilejazz/MJApiClient.git`, tag `0.3.2`)
+  - Motis (~> 1.4.0)
+
+EXTERNAL SOURCES:
+  MJApiClient:
+    :git: https://github.com/mobilejazz/MJApiClient.git
+    :tag: 0.3.2
+
+CHECKOUT OPTIONS:
+  MJApiClient:
+    :git: https://github.com/mobilejazz/MJApiClient.git
+    :tag: 0.3.2
+
+SPEC CHECKSUMS:
+  AFNetworking: 8e4e60500beb8bec644cf575beee72990a76d399
+  FormatterKit: bddde83e054edf9d9ee14f9de3b3a5103db256f4
+  MJApiClient: 82b4961651821db75952c0236591e9ef5ec97614
+  Motis: 107a32fd0b6f026077bc31e5a846b45c0c548f55
+
+COCOAPODS: 0.39.0
